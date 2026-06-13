@@ -51,3 +51,6 @@ Now you need to point your miners to your Public Pool instance on your Umbrel no
 
 1. In your miner settings, use <Umbrel's local IP address>:2018 with 2018 being the Public Pool port number (it will be different if you're using a different pool app such as Bassin).
 2. For your username, use the testnet address you got from Sparrow that starts with `tb1q...`. You can append a `.workername` to this address if you'd like to assign a worker name to your minerwhere workername is whatever name you want to assign to that specific miner.
+
+## What to expect if everything was done correctly
+Your miner dashboard should show shares being delivered to the pool and the pool dashboard should show the hashrate of your miner and it's highest difficulty thus far. 
