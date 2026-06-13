@@ -30,4 +30,8 @@ In order to mine tesnet BTC, you will need a valid testnet BTC address. Testnet 
 We need Bitcoin node software running on the testnet4 network so that we can point our Public Pool instance to it. You can use Bitcoin Knots, Bitcoin Core, or any other node software that lets you switch the network to testnet4.
 
 1. Install Bitcoin Knots
-2. Go to Settings > Network
+2. Go to Settings > Network Selection and switch it from `Mainnet` to `Testnet4`
+3. Wait for the initial blockchain download to complete. Since this is testnet, it shouldn't take as long as the mainnet blockchain since it's only ~60GB.
+
+### Install Public Pool App
+You can use other apps as well such as Bassin 
