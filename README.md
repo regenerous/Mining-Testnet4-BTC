@@ -34,4 +34,8 @@ We need Bitcoin node software running on the testnet4 network so that we can poi
 3. Wait for the initial blockchain download to complete. Since this is testnet, it shouldn't take as long as the mainnet blockchain since it's only ~60GB.
 
 ### Install Public Pool App
-You can use other apps as well such as Bassin 
+You can use other apps as well such as Bassin but they may have different ways to configure them to work with testnet. In this guide, I will focus on what I used and got working which is Public Pool. In Umbrel, you can find Public Pool in the app store. 
+
+1. Download Public Pool app
+2. Once it's done downloading, if it started automatically, right click on its icon and click "Stop" to stop it.
+3. Open the F
