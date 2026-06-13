@@ -38,9 +38,16 @@ We need Bitcoin node software running on the testnet4 network so that we can poi
 ### Install Public Pool App
 You can use other apps as well such as Bassin but they may have different ways to configure them to work with testnet. In this guide, I will focus on what I used and got working which is Public Pool. In Umbrel, you can find Public Pool in the app store. 
 
-1. Download Public Pool app
-2. Once it's done downloading, if it started automatically, right click on its icon and click "Stop" to stop it.
+1. Download and install Public Pool app from the Umbrel store. It will ask you which Bitcoin node software it should use. Make sure to select the Bitcoin node app you configured for testnet above.
+2. Right click on the Public Pool app icon and click "Stop" to stop it.
 3. Open the File app in Umbrel and go to Apps > Public Pool and open `docker-compose.yml`.
-4. Change the `network` value from `mainnet` to `testnet` (NOT `testnet4`)
+4. Change the `network` value from `mainnet` to `testnet` (NOT `testnet4`) and save the file.
 <img width="2116" height="1249" alt="image" src="https://github.com/user-attachments/assets/c5984ba9-a0fe-4fff-bd3e-a8c9e0966f2b" />
+5. Start the Public Pool up again by click on its icon.
+6. Open the Public Pool app and it will show you the port number you should specify in your miner's settings (Public Pool port is 2018).
 
+### Configure your miners to hash to your public pool
+Now you need to point your miners to your Public Pool instance on your Umbrel node. 
+
+1. In your miner settings, use <Umbrel's local IP address>:2018 with 2018 being the Public Pool port number (it will be different if you're using a different pool app such as Bassin).
+2. For your username, use the testnet address you got from Sparrow that starts with `tb1q...`. You can append a `.workername` to this address if you'd like to assign a worker name to your minerwhere workername is whatever name you want to assign to that specific miner.
