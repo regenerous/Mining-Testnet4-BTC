@@ -38,4 +38,7 @@ You can use other apps as well such as Bassin but they may have different ways t
 
 1. Download Public Pool app
 2. Once it's done downloading, if it started automatically, right click on its icon and click "Stop" to stop it.
-3. Open the F
+3. Open the File app in Umbrel and go to Apps > Public Pool and open `docker-compose.yml`.
+4. Change the `network` value from `mainnet` to `testnet` (NOT `testnet4`)
+<img width="2116" height="1249" alt="image" src="https://github.com/user-attachments/assets/c5984ba9-a0fe-4fff-bd3e-a8c9e0966f2b" />
+
