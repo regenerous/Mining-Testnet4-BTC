@@ -25,3 +25,9 @@ In order to mine tesnet BTC, you will need a valid testnet BTC address. Testnet 
 3. You should notice text at the top right that says "testnet4" when you open Sparrow
 4. Create a software or hardware wallet in Sparrow
 5. Click on Receive to get an address. A valid testnet BTC address should start with `tb1q...`
+
+### Install Bitcoin Node Software
+We need Bitcoin node software running on the testnet4 network so that we can point our Public Pool instance to it. You can use Bitcoin Knots, Bitcoin Core, or any other node software that lets you switch the network to testnet4.
+
+1. Install Bitcoin Knots
+2. Go to Settings > Network
