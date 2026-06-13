@@ -19,4 +19,9 @@ In order to mine tesnet BTC, you will need a valid testnet BTC address. Testnet 
 
 1. Download and install Sparrow Wallet
 2. The simplest way to start Sparrow using testnet is via the Tools > Restart in Testnet menu command. This will close Sparrow, and restart it with a separate testnet configuration in the testnet folder in Sparrow home. You can also start Sparrow in tesnet mode using the terminal:
-   - 
+  - macOS: `open /Applications/Sparrow.app --args -n testnet4`
+  - Linux: `Sparrow/bin/Sparrow -n testnet4`
+  - Windows: `Sparrow.exe -n testnet4`
+3. You should notice text at the top right that says "testnet4" when you open Sparrow
+4. Create a software or hardware wallet in Sparrow
+5. Click on Receive to get an address. A valid testnet BTC address should start with `tb1q...`
